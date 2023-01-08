@@ -25,7 +25,7 @@ export default function App() {
         src={image.img}
         alt={image.city}
         key={idx}
-        className='image'
+        className='thumb'
         onClick={() => handleImgClick(image.img)}
 
         ></img>
