@@ -25,7 +25,7 @@ export default function App() {
         src={image.img}
         alt={image.city}
         key={idx}
-        className='thumb'
+        className={image.img === bigImage ? 'thumb border' : 'thumb'}
         onClick={() => handleImgClick(image.img)}
 
         ></img>
